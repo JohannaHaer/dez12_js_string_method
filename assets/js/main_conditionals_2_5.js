@@ -53,7 +53,7 @@ function check() {
             eingabe.textContent = "Thüringen hat 2,171 Mio Einwohner und Erfurt ist die Hauptstadt"
         break;
         default: 
-        eingabe.textContent = "Ein solches Bundesland gibt es in Deutschland nicht."
+            eingabe.textContent = "Ein solches Bundesland gibt es in Deutschland nicht."
     }
 
     
