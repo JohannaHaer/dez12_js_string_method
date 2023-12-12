@@ -1,5 +1,11 @@
-function searchReplace() {
-    let article = document.querySelector("#article")
-    let search = document.querySelector("#search-input").value
-    article.innerHTML = article.innerText.replaceAll(search, `<span class="highlight">${search}</span>`)
+function check() {
+    let age = document.querySelector("#age").value
+    let result = document.querySelector("#result")
+    
+    switch (age) {
+        case (age >= 18):
+            result.textContent = "Volljährig"
+        default:
+            result.textContent = "Minderjährig"
+    }
 }
